@@ -9,7 +9,7 @@ using namespace std;
 bool isAlphabetic(char c) {
     return isalpha(c) || c == '\'';
 }
-
+ 
 string scramble(string word) {
     if (word.length() <= 3) {
         return word;
