@@ -14,7 +14,7 @@ string scramble(string word) {
     if (word.length() <= 3) {
         return word;
     }
-
+      
     // Generate random indices for character swapping
     int index1, index2;
     do {
